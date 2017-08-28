@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="navbar" id="topNav">
+        <a href="#">home</a>
+        <a href="#">lorem</a>
+        <a href="#">lorem</a>
+        <a href="#">lorem</a>
+        <a href="#">Sign up</a>
+        <a href="#">Log in</a>
+        <a href="javascript:void(0);" class="icon" onclick="navbarFunction()">&#9776;</a>
+    </div>
+
+    <div class="container">
+        <div class="gallery">
+            <img class="smallImg" src="images/smallPhoto1.jpg" alt="Forest" onclick="showBigPicture(1)">
+            <div class="modal" id="1">
+                <span class="close" onclick="hideBigPicture(1)">&times;</span>
+                <img class="bigImg" src="images/bigPhoto1.jpg">
+            </div>
+            <img class="smallImg" src="images/smallPhoto2.jpg" alt="Forest" onclick="showBigPicture(2)">
+            <div class="modal" id="2">
+                <span class="close" onclick="hideBigPicture(2)">&times;</span>
+                <img class="bigImg" src="images/bigPhoto2.jpg">
+            </div>
+
+            <img class="smallImg" src="images/smallPhoto3.jpg" alt="Forest" onclick="showBigPicture(3)">
+            <div class="modal" id="3">
+                <span class="close" onclick="hideBigPicture(3)">&times;</span>
+                <img class="bigImg" src="images/bigPhoto3.jpg">
+            </div>
+            <img class="smallImg" src="images/smallPhoto4.jpg" alt="Forest" onclick="showBigPicture(4)">
+            <div class="modal" id="4">
+                <span class="close" onclick="hideBigPicture(4)">&times;</span>
+                <img class="bigImg" src="images/bigPhoto4.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div id="slideshow">
+        </div>
+        <div class="rowArrow">
+        <a class="prev" onclick="plusSlides(-2)">&#10094;</a>
+        <a class="next" onclick="plusSlides(0)">&#10095;</a>
+        </div>
+        <div class="row">
+            <span class="square" onclick="currentSlide(1)"></span>
+            <span class="square" onclick="currentSlide(2)"></span>
+            <span class="square" onclick="currentSlide(3)"></span>
+            <span class="square" onclick="currentSlide(4)"></span>
+        </div>
+    </div>
+
+</body>
+
+</html>

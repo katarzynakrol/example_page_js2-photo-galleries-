@@ -10,8 +10,11 @@ Użyte technologie
 - HTML5,
 - CSS3,
 - JavaScript: 
+
     **a)** galeria typu Lightbox,
+
     **b)** galeria typu Carousel,
+    
     **c)** responsywne menu górne.
 
 Strona została testowana na poniższych przeglądarkach:

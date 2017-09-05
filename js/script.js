@@ -1,10 +1,10 @@
 function navbarFunction() {
-    var x = document.getElementById('topNav');
+    var navbar = document.getElementById('topNav');
 
-    if (x.className === 'navbar') {
-        x.className += ' responsive';
+    if (navbar.className === 'navbar') {
+        navbar.className += ' responsive';
     } else {
-        x.className = 'navbar';
+        navbar.className = 'navbar';
     }
 }
 
